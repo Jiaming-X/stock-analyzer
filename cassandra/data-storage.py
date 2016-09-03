@@ -100,6 +100,7 @@ if __name__ == '__main__':
     # - initiate a simple kafka consumer
     consumer = KafkaConsumer(
         topic_name,
+        group_id='1',
         bootstrap_servers=kafka_broker
     )
 

@@ -48,6 +48,7 @@ if __name__ == '__main__':
     # - instantiate a simple kafka consumer
     kafka_consumer = KafkaConsumer(
         topic_name,
+        group_id='2',
         bootstrap_servers=kafka_broker
     )
 

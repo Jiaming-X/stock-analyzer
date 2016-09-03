@@ -35,7 +35,7 @@ def fetch_price(producer, symbol):
     try:
         # price = json.dumps(getQuotes(symbol))
 
-        price = random.randint(30, 110)
+        price = random.randint(30, 610)
         timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%MZ')
         payload = ('[{"StockSymbol":"AAPL","LastTradePrice":%d,"LastTradeDateTime":"%s"}]' % (price, timestamp)).encode('utf-8')
 
