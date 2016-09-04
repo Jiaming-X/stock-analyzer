@@ -14,7 +14,7 @@ topic_name = 'stock-analyzer'
 kafka_broker = '127.0.0.1:9092'
 
 # - default cassandra nodes to connect
-contact_points = '192.168.99.101'
+contact_points = '192.168.99.100'
 
 # - default keyspace to use
 key_space = 'stock'

@@ -33,7 +33,8 @@ def fetch_price(producer, symbol):
     """
     logger.debug('Start to fetch stock price for %s', symbol)
     try:
-        # price = json.dumps(getQuotes(symbol))
+        stock_price = json.dumps(getQuotes(symbol))
+        #print stock_price
 
         price = random.randint(80, 120)
         timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%MZ')
