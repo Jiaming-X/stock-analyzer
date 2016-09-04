@@ -5,9 +5,11 @@ $(function () {
 			millisPerPixel:28,
 			grid:{
 				fillStyle:'#ffffff',
-				strokeStyle:'#cacaca',
+				strokeStyle:'rgba(119,119,119,0.11)',
 				verticalSection: 10
 			},
+			maxValue:120,
+			minValue:80,
 			labels:{
 				fillStyle:'#a966ff'
 			},
@@ -18,8 +20,8 @@ $(function () {
 	var line1 = new TimeSeries()
 
 	smoothie.addTimeSeries(line1, {
-		strokeStyle:'rgb(0, 255, 0)',
-		fillStyle:'rgba(0, 255, 0, 0.4)',
+		strokeStyle:'#69c4ff',
+		//fillStyle:'rgba(0, 255, 0, 0.4)',
 		lineWidth:3
 	});
 
