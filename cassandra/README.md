@@ -4,7 +4,7 @@
 cassandra-driver https://github.com/datastax/python-driver
 
 ##reminder
-python 2.7.12 does not work.
+Suggest to use Python 2.7.11. Python 2.7.12 does not work with Cassandra.
 
 
 Make sure create a table before running the kafka and cassandra python code.
