@@ -3,7 +3,7 @@
 ## Real-time stock data processing system.
 
 ## Architecture
-![Image](https://github.com/brucexiejiaming/stock-analyzer/architecture.tiff?raw=true)
+![Image](https://github.com/brucexiejiaming/stock-analyzer/architecture.jpg?raw=true)
 
 
 ####Kafka
