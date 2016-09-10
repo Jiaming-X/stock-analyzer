@@ -25,9 +25,12 @@ redisclient.on('message', function (channel, message) {
 });
 
 // - setup webapp routing
-app.use(express.static(__dirname + '/public'));
+//app.use(express.static(__dirname + '/test-app'));
+app.use(express.static(__dirname + '/stock-visualizer'));
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
 app.use('/smoothie', express.static(__dirname + '/node_modules/smoothie/'));
+app.use('/d3', express.static(__dirname + '/node_modules/rickshaw/vendor/'));
+app.use('/rickshaw', express.static(__dirname + '/node_modules/rickshaw/'));
 
 server.listen(port, function () {
     console.log('Server started at port %d.', port);
