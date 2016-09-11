@@ -30,11 +30,11 @@ setInterval(function(){
         var message = {};
         message.timestamp = Date.now();
         message.average = 20 * Math.cos(2 * Math.PI * Math.random()) + 80;
-        
+
         var msg = JSON.stringify(message);
         console.log('message received %s', msg);
         io.sockets.emit('data', msg);
-}, 300);
+}, 200);
 
 
 // - setup webapp routing

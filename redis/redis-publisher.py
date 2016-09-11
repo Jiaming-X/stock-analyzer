@@ -11,7 +11,6 @@ topic_name = 'stock-analyzer'
 # - default kafka broker location
 kafka_broker = '127.0.0.1:9092'
 
-
 logger_format = '%(asctime)-15s %(message)s'
 logging.basicConfig(format=logger_format)
 logger = logging.getLogger('redis-publisher')

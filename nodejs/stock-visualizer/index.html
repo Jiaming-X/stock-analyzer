@@ -22,8 +22,22 @@
 			font-family: Arial, sans-serif
 		}
 		#chart_container {
-			width: 960px;
+			width: 1000px;
 		}
+		#chart {
+            left: 50px;
+            width: 1000px;
+            position: relative;
+        }
+		#y_axis {
+            position: absolute;
+            height: 800px;
+            width: 40px;
+        }
+        #title {
+        	text-align: center;
+        }
+
 		.swatch {
 			display: inline-block;
 			width: 10px;
@@ -46,10 +60,13 @@
 	</style>
 </head>
 <body>
-<h1>Stock Visualizer</h1>
+<div id="title">
+    <h1>Stock Visualizer</h1>
+</div>>
 
 <div>
     <div id="chart_container">
+	    <div id="y_axis"></div>
 	    <div id="chart"></div><br>
 	    <div id="legend"></div>
     </div>

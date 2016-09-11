@@ -54,6 +54,7 @@ def shutdown_hook(p):
 if __name__ == '__main__':
     # - setup command line arguments
     parser = argparse.ArgumentParser()
+    parser.add_argument('symbol', help='the symbol of the stock to collect')
     parser.add_argument('topic_name', help='the kafka topic push to')
     parser.add_argument('kafka_broker', help='the location of the kafka broker')
 
