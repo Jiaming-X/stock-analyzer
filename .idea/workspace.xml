@@ -32,6 +32,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="stream-processing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark/stream-processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs/index_test.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,8 +102,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="103" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -118,16 +128,6 @@
         <entry file="file://$PROJECT_DIR$/architecture.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple-data-producer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka/simple-data-producer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -883,16 +883,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/architecture.tiff" />
-    <entry file="file://$PROJECT_DIR$/spark/stream-processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis/redis-publisher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -986,11 +976,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spark/stream-processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="103" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
             <folding />
           </first_editor>
           <second_editor />
