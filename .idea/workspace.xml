@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d78158b-f513-43f8-92df-e8870d726867" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka/fast-data-producer.py" afterPath="$PROJECT_DIR$/kafka/fast-data-producer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/index_test.js" afterPath="$PROJECT_DIR$/nodejs/index_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/stock-visualizer/index.html" afterPath="$PROJECT_DIR$/nodejs/stock-visualizer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/stock-visualizer/main.js" afterPath="$PROJECT_DIR$/nodejs/stock-visualizer/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis/redis-publisher.py" afterPath="$PROJECT_DIR$/redis/redis-publisher.py" />
     </list>
     <ignored path="stock-analyzer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs/stock-visualizer/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -95,12 +88,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="663">
-                <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="102" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -165,10 +158,10 @@
         <option value="$PROJECT_DIR$/nodejs/index.js" />
         <option value="$PROJECT_DIR$/redis/redis-publisher.py" />
         <option value="$PROJECT_DIR$/kafka/fast-data-producer.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/nodejs/stock-visualizer/index.html" />
         <option value="$PROJECT_DIR$/nodejs/index_test.js" />
         <option value="$PROJECT_DIR$/nodejs/stock-visualizer/main.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -939,26 +932,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="663">
-            <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="102" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/node_modules/express/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1011,6 +984,26 @@
           <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

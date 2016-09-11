@@ -1,6 +1,7 @@
 # stock-analyzer
 
 ## Real-time stock data processing system.
+![Image](https://github.com/brucexiejiaming/stock-analyzer/blob/master/demo.gif?raw=true)
 
 ## Architecture
 ![Image](https://github.com/brucexiejiaming/stock-analyzer/blob/master/architecture.jpg?raw=true)
