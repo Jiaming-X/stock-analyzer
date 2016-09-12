@@ -49,21 +49,23 @@ def process(timeobj, rdd):
     num_of_records = rdd.count()
     if num_of_records == 0:
         return
+
     price_sum = rdd \
         .map(lambda record: float(json.loads(record[1].decode('utf-8'))[0].get('LastTradePrice'))) \
-        .reduce(lambda a, b: a + b)
-    average = price_sum / num_of_records
-    logger.info('Received %d records from kafka, average price is %f' % (num_of_records, average))
+        .reduce(lambda a, b: float(a + b))
+    average = price_sum / float(num_of_records)
+    logger.info('%s' % (rdd.collect()));
+    logger.info('Received %d records from kafka, average price is %f, the sum is %f' % (num_of_records, average, price_sum))
     current_time = time.time()
     data = json.dumps({
         'timestamp': current_time,
         'average': average
     })
+    logger.info('The str is: %s' % (data))
     try:
         kafka_producer.send(target_topic, value=data)
     except KafkaError as error:
         logger.warn('Failed to send average stock price to kafka, caused by: %s', error.message)
-
 
 
 if __name__ == '__main__':

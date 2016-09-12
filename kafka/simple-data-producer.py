@@ -33,16 +33,21 @@ def fetch_price(producer, symbol):
     """
     logger.debug('Start to fetch stock price for %s', symbol)
     try:
-        stock_price = json.dumps(getQuotes(symbol))
-        #print stock_price
+        #stock_price = json.dumps(getQuotes(symbol))
+        stock = getQuotes(symbol)
 
-        price = random.randint(80, 120)
+        print stock[0]['LastTradePrice']
+        price = float(stock[0]['LastTradePrice'])
+
+        #price = random.randint(80, 120)
+
         timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%dT%H:%MZ')
-        payload = ('[{"StockSymbol":"AAPL","LastTradePrice":%d,"LastTradeDateTime":"%s"}]' % (price, timestamp)).encode('utf-8')
+        payload = ('[{"StockSymbol":"%s","LastTradePrice":%f,"LastTradeDateTime":"%s"}]' % (symbol, price, timestamp)).encode('utf-8')
 
         logger.debug('Retrieved stock info %s', price)
         producer.send(topic=topic_name, value=payload, timestamp_ms=time.time())
         logger.debug('Sent stock price for %s to Kafka', symbol)
+
     except KafkaTimeoutError as timeout_error:
         logger.warn('Failed to send stock price for %s to kafka, caused by: %s', (symbol, timeout_error.message))
     except Exception:

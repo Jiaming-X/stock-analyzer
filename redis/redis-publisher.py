@@ -16,7 +16,6 @@ logging.basicConfig(format=logger_format)
 logger = logging.getLogger('redis-publisher')
 logger.setLevel(logging.DEBUG)
 
-
 def shutdown_hook(kafka_consumer):
     """
     a shutdown hook to be called before the shutdown

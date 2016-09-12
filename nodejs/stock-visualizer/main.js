@@ -49,16 +49,6 @@ $(function () {
         data.AAPL = Math.random() * trend22 + (Math.random() - 0.5) * trend2 * trend2 / 10 + (prevAAPL - 210)* (Math.random() - 0.5) + prevAAPL;
         data.GOOGL = Math.random() * trend33 + (Math.random() - 0.5) * trend3 * trend3 / 10 + (prevGOOGL - 300) * (Math.random() - 0.5) + prevGOOGL;
 
-
-//        // random data
-//        var data = {};
-//        data.FB = AAPL;
-//
-//        var randInt = Math.floor(Math.random()*40 - 20);
-//        var scale = Math.random();
-//        var scale2 = Math.random();
-//        data.AAPL = scale * AAPL + randInt + 50;
-//        data.GOOGL = Math.floor(scale2 * Math.random()*40 - 20) + 600;
         graph.series.addData(data);
         graph.render();
     });
