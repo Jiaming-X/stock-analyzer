@@ -9,6 +9,11 @@ Suggest to use Python 2.7.11. Python 2.7.12 does not work with Cassandra.
 
 Make sure create a table before running the kafka and cassandra python code.
 
+
+~~~~
+./cqlsh `docker-machine ip bigdata` 9042
+~~~~
+
 ~~~~
 CREATE KEYSPACE "stock" WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND durable_writes = 'true';
 USE stock;

@@ -15,6 +15,12 @@ Assume that the virtual machine's name is bigdata, start it without GUI:
 VBoxManage startvm "bigdata" --type headless
 ~~~~
 
+
+~~~~
+eval $(docker-machine env bigdata)
+~~~~
+
+
 ####Docker Setup
 Have the following containers to set up before running the project.
 
@@ -51,7 +57,7 @@ docker-machine ip bigdata
 
 Assume that the ip is 192.168.99.100.
 Use the following command lines to set up different parts:
-x`
+x
 ####Kafka
 ~~~~
 python simple-data-producer.py AAPL stock-analyzer 192.168.99.100:9092
